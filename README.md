@@ -16,7 +16,7 @@ GET http://localhost:3355/cevir?cumle={ÇEVİRİLECEK_CÜMLE}&src={KAYNAK_DİL_K
 
 **Örnek İstek:**
 
-GET http://localhost:3355/cevir?cumle=Merhaba Dünya!&src=tr&dest=en
+GET http://localhost:3355/cevir?cumle=Merhaba+Dünya!&src=tr&dest=en
 
 **Örnek Yanıt:**
 
@@ -73,7 +73,7 @@ GET http://localhost:3355/cevir?cumle={TEXT_TO_TRANSLATE}&src={SOURCE_LANGUAGE_C
 
 **Example Request:**
 
-GET http://localhost:3355/cevir?cumle=Hello World!&src=en&dest=tr
+GET http://localhost:3355/cevir?cumle=Hello+World!&src=en&dest=tr
 
 **Example Response:**
 
