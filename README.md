@@ -6,7 +6,7 @@ Bu API, Google Translate Kütüphanesini kullanarak metinleri farklı dillere ç
 
 API'ye şu şekilde istek gönderebilirsiniz:
 
-GET localhost:3355/cevir?cumle={ÇEVİRİLECEK_CÜMLE}&src={KAYNAK_DİL_KODU}&dest={HEDEDF_DİL_KODU}
+GET http://localhost:3355/cevir?cumle={ÇEVİRİLECEK_CÜMLE}&src={KAYNAK_DİL_KODU}&dest={HEDEDF_DİL_KODU}
 
 **Parametreler:**
 
@@ -16,7 +16,7 @@ GET localhost:3355/cevir?cumle={ÇEVİRİLECEK_CÜMLE}&src={KAYNAK_DİL_KODU}&de
 
 **Örnek İstek:**
 
-GET localhost:3355/cevir?cumle=Merhaba Dünya!&src=tr&dest=en
+GET http://localhost:3355/cevir?cumle=Merhaba Dünya!&src=tr&dest=en
 
 **Örnek Yanıt:**
 
@@ -63,7 +63,7 @@ This API uses the Google Translate Library to allow you to translate text into d
 
 You can make requests to the API as follows:
 
-GET localhost:3355/cevir?cumle={TEXT_TO_TRANSLATE}&src={SOURCE_LANGUAGE_CODE}&dest={TARGET_LANGUAGE_CODE}
+GET http://localhost:3355/cevir?cumle={TEXT_TO_TRANSLATE}&src={SOURCE_LANGUAGE_CODE}&dest={TARGET_LANGUAGE_CODE}
 
 **Parameters:**
 
@@ -73,7 +73,7 @@ GET localhost:3355/cevir?cumle={TEXT_TO_TRANSLATE}&src={SOURCE_LANGUAGE_CODE}&de
 
 **Example Request:**
 
-GET localhost:3355/cevir?cumle=Hello World!&src=en&dest=tr
+GET http://localhost:3355/cevir?cumle=Hello World!&src=en&dest=tr
 
 **Example Response:**
 
